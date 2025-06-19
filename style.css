@@ -1,0 +1,96 @@
+#profile-wrapper {
+  padding: 5rem;
+  background: linear-gradient(to bottom, #e65c00, #ffb399);
+}
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  color: blanchedalmond;
+}
+
+  #profile-text {
+    padding: 2rem;
+    max-width: 900px; /*this may f me up later*/
+    margin: auto;
+  }
+
+  h2 {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    color: blanchedalmond;
+  }
+
+  .bio-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    gap: 2rem;
+  }
+
+  .bio-section.reverse {
+    flex-direction: row-reverse;
+  }
+
+  .bio-section img {
+    width: 25rem;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+
+  .bio-section p {
+    flex: 1;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: blanchedalmond;
+  }
+
+.polaroid-intro {
+  margin: 4rem 0 2rem 0;
+  font-family: "Source Code Pro", "Courier New", Courier, monospace;
+  /*font-family: 'Courier New', Courier, monospace;*/
+  font-size: 1rem;
+  font-weight: normal;
+  color: blanchedalmond;
+  text-align: center;
+  max-width: fit-content; /*again, please don't hurt me */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.frame-wrapper {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.white-frame {
+  width: 7.5rem;
+  background-color: white;
+  border: 1rem solid white;
+  border-radius: 0.3rem;
+  padding: 0.5rem 0.5rem 2rem 0.5rem; /* bottom padding = extra white space like Polaroid */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.white-frame img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.song-title {
+  font-family: monospace;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+}
